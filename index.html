@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shorcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <title>Portfolio AbrahamQ</title>
+  <!-- ARCHIVOS CSS BOOTSTRAP 5 -->
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ARCHIVOS CSS PERDSONALIZADOS -->
+  <link type="text/css" rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">      
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <strong>Abraham</strong> Quintero
+      </a>
+
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" 
+       data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-labelledby="Desplegar menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+
+      <div class="collapse navbar-collapse" id="menu-principal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">¿Quién soy?</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+<!-- SECCION QUIEN SOY -->
+  <section class="quien-soy py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 text-center">
+          <img src="images/desarrollador.svg" alt="imagen desarrollador" class="img-fluid mb-4">
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-start align-self-md-center">
+          <h1 class="display-4 fw-bold text-primary">¿Quién soy?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur in neque iste eveniet qui magnam ea enim vero minus aperiam. Blanditiis, hic illo! Nam possimus aliquam alias repudiandae, adipisci saepe.</p>
+          <a href="#" class="btn btn-primary btn-lg">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCION FILOSOFIA -->
+  <section class="filosofia py-4 bg-primary text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img class="img-fluid rounded-circle mb-4" src="images/avatar.png" alt="avatar" width="260" height="auto">
+          <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae recusandae perspiciatis officia aut. Magni sit aperiam, aliquid similique nesciunt esse, dolorum consequuntur fugiat inventore natus fugit, illo nisi corporis? Doloribus?</p>
+          <p class="h4 fst-italic">- Abraham Quintero</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proyectos py-4">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-center pb-4">Mis Proyectos</h1>
+      <div class="row text-md-center">
+        
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img src="images/proyecto1.png" class="card-img-top h-100" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img src="images/proyecto2.png" class="card-img-top h-100" alt="Proyecto 2">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img src="images/proyecto3.png" class="card-img-top h-100" alt="Proyecto 3">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img src="images/proyecto4.png" class="card-img-top h-100" alt="Proyecto 4">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 4</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="pie-de-pagina text-center text-md-end bg-dark text-white">
+    <div class="container">
+      <p class="m-0 py-3">Copyright © 2022. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.6.0.min.js"></script>  
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
